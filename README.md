@@ -1,2 +1,3 @@
 # lojascripthead
-Script heat para melhoria da loja
+
+Script head para melhoria da loja
