@@ -1,7 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   //Change montink default keyworks
-  document.querySelector('meta[name="keywords"]').setAttribute("content", "camisas jiu-jitsu, moda jiu-jitsu, lifestyle jiu-jitsu, regatas de jiu-jitsu, jiu-jitsu tshirt, jiu-jitsu apparel, roupas para artes marciais");
-  
+  document
+    .querySelector('meta[name="keywords"]')
+    .setAttribute(
+      "content",
+      "camisas jiu-jitsu, moda jiu-jitsu, lifestyle jiu-jitsu, regatas de jiu-jitsu, jiu-jitsu tshirt, jiu-jitsu apparel, roupas para artes marciais"
+    );
+
+  document.body.style.display = "none";
+
   //Remove CPF
   const dadosrodape = document.querySelectorAll(
     "[data-edit='corFundoRodapeBloco2']"
